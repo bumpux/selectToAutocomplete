@@ -44,7 +44,7 @@ THE SOFTWARE.
       return $select_field.hide();
     },
     insert_text_field: function( $select_field ) {
-      var $text_field = $( "<input></input>" );
+      var $text_field = $( "<input placeholder='✈ ♬ ✈ ♬ ✈ ♬ ✈ ♬ ✈'></input>" ); // GB EDIT - insert placeholder
       if ( settings['copy-attributes-to-text-field'] ) {
         var attrs = {};
         var raw_attrs = $select_field[0].attributes;
